@@ -1,0 +1,16 @@
+translation:
+  targets: []
+  primary_lang: ja
+
+theme: "さいたま市（埼玉県）に関するナレッジベース。10区（西区・北区・大宮区・見沼区・中央区・桜区・浦和区・南区・緑区・岩槻区）の地理・歴史、区内の主要施設・組織（神社仏閣、博物館、スタジアム、スポーツクラブ等）とその所在区との関係、および市が提供する行政手続き（ごみの出し方、住民異動届等の窓口業務）を中心に扱う。一次資料としてさいたま市公式サイト・観光ポータル（VISIT\
+  \ SAITAMA CITY）・さいたま市が公開するオープンデータ（指定管理者制度導入施設一覧等）、および信頼できる百科事典的情報源（Wikipedia）を優先し、個人ブログ・商業的な観光広告・グルメレビュー・特定店舗の宣伝は対象外とする。"
+
+generate:
+  max_retries: 2
+
+review:
+  auto_merge: true
+  chain_of_thought: false
+
+schema:
+  base_types: [Person, Place, Organization, Event, HowTo, DefinedTerm, ScholarlyArticle, NewsArticle, BlogPosting, ShortStory, Book]
