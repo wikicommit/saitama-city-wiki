@@ -1,0 +1,24 @@
+---
+source:
+  type: url
+  url: 'https://ja.wikipedia.org/wiki/中央区_(さいたま市)'
+  hash: sha256:80769e4a925261a825057ad16cf6f6c8fe990952242f4a7b6ca9eae99826deeb
+
+schema:
+status: partial
+last_generated_at: "2026-08-25"
+extracted_tokens: 18618
+generated_pages:
+  - .wikicommit/entity/ja/AdministrativeArea/chuo-ward.md
+  - .wikicommit/entity/ja/Place/yono-park.md
+  - .wikicommit/entity/ja/Place/myogyoji-temple.md
+failed_pages: []
+---
+
+## Summary
+
+中央区（ちゅうおうく）はさいたま市を構成する10行政区の一つで、旧与野市域にさいたま新都心西側の一部が加わった区域からなり、面積8.39km²は市内10区で最小である。区名は「中央区」であるが、東京都中央区などとは異なり、さいたま新都心の一部を除いて市の中心市街地はほとんど含まれない。区名選定では公募・区名投票ともに「与野区」が1位であったにもかかわらず第2位の「中央区」が選定され、選定委員会で紛糾した経緯をもつ。区内にはさいたまスーパーアリーナ、彩の国さいたま芸術劇場、1877年開園の与野公園、国の天然記念物「与野の大カヤ」を擁する妙行寺などがある。
+
+「中央区」: 面積（8.39km²）・人口（104,334人）・人口密度（12,436人/km²）・市町村コード（11105-8）・区の花（バラ）・区の色（バラ色）の記載があったが、AdministrativeArea.md の properties フィールドに受け皿がないため本文にのみ記載。
+
+テーマ不一致により除外したエンティティ: 「小林麻央」「梨元勝」「加藤克巳」（区にゆかりのある人物として名前が挙げられているのみで、本ナレッジベースのテーマである地理・歴史・施設・組織・行政手続きのいずれにも該当しないため）。

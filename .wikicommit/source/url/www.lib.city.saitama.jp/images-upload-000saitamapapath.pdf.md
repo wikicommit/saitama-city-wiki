@@ -1,0 +1,22 @@
+---
+source:
+  type: url
+  url: 'https://www.lib.city.saitama.jp/images/upload/000saitamapapath.pdf'
+  hash: sha256:54394f5e66b0214cc3c36bb76c5375373ca90e9a12eeb3d79abfb96a3497b2b5
+
+schema:
+status: partial
+last_generated_at: "2026-08-25"
+extracted_tokens: 1013
+generated_pages:
+  - .wikicommit/entity/ja/Place/saitama-central-library.md
+failed_pages: []
+---
+
+## Summary
+
+さいたま市立中央図書館が令和3年3月に編集・発行したパスファインダー「さいたま市を調べる」で、さいたま市について調べる際のキーワードの見つけ方、地域資料コーナーと請求記号、さいたま専科コーナー、参考図書、新聞記事検索データベースと新聞記事目録、市報、市ホームページおよびインターネット上の情報源を案内している。あわせて中央図書館の所在地・電話番号・ファックス番号・ホームページURLを掲載している。
+
+「さいたま市立中央図書館」: 電話番号（048-871-2100）・ファックス番号（048-884-5500）の記載があったが、Place.md の properties フィールドに受け皿がないため本文にのみ記載。
+
+テーマ不一致により除外したエンティティ: 「パスファインダー」（図書館情報学一般の用語であり、本ナレッジベースのテーマである10区の地理・歴史、区内の主要施設・組織、市が提供する行政手続きのいずれにも該当しないため）。

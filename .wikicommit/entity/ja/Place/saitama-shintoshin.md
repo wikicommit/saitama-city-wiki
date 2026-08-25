@@ -6,9 +6,12 @@ sources:
   - type: url
     url: 'https://ja.wikipedia.org/wiki/さいたま市'
     hash: sha256:05053e26b3f5a9025d0ab11a77f65d92407b3b33b6f77426076b51203bf76479
+  - type: url
+    url: 'https://www.jstage.jst.go.jp/article/jares/30/4/30_43/_pdf/-char/en'
+    hash: sha256:74d12eea7f24bf0c94de9289652b27ba68cad02543534d93d5b6488a8b1eebbf
 tags: [さいたま新都心, 国の出先機関, 業務核都市]
 review_status: pending
-generated_at: "2026-08-24"
+generated_at: "2026-08-25"
 generated_by: "claude-opus-5[1m]"
 
 properties:
@@ -35,5 +38,7 @@ properties:
 政令指定都市移行時には、さいたま新都心のうち[[StadiumOrArena/saitama-super-arena]]・国の広域合同庁舎・郵政庁舎が立地する区域が複数区に分断されないよう取り扱うべきとされ、地域の大半を占めていた旧与野市域の[[AdministrativeArea/chuo-ward]]に旧浦和市部分・旧大宮市部分を編入して「新都心」という町名が新設された。
 
 2018年（平成30年）10月27日にはさいたま新都心公園が供用を開始し、2021年（令和3年）7月8日には東京オリンピックの聖火到着セレブレーションが同公園で開催された（公道でのリレーは中止となった）。2022年（令和4年）3月8日には、この開催を記念する記念碑が同公園に設置された。
+
+[[ScholarlyArticle/municipal-recognition-real-estate-consolidation]]は、旧3市にまたがる国鉄操車場跡地に政府機関の移転が決定し、さいたま新都心事業が国家的プロジェクトとして進められたことが、過去70年来の課題であった県都浦和と商都大宮の合併を実現させた要因の1つであり、合併を後押しする大きな契機となったとしている。
 
 2013年（平成25年）10月26日には、ツール・ド・フランス100回を記念してツール・ド・フランスさいたまクリテリウムがさいたま新都心で初開催された。

@@ -6,7 +6,7 @@ source:
 
 schema:
 status: partial
-last_generated_at: "2026-08-24"
+last_generated_at: "2026-08-25"
 extracted_tokens: 20377
 generated_pages:
   - .wikicommit/entity/ja/AdministrativeArea/midori-ward.md
