@@ -1,0 +1,12 @@
+---
+title: "GovernmentService"
+lang: ja
+type: "schema:GovernmentService"
+---
+
+[[GovernmentService/branch-offices-and-citizen-counters]] — 支所・市民の窓口
+[[GovernmentService/domicile-transfer-notification]] — 転籍届
+[[GovernmentService/family-register-notification]] — 戸籍の届出
+[[GovernmentService/household-waste-disposal]] — 家庭ごみの出し方
+[[GovernmentService/resident-registration-move]] — 住民異動届（転入・転出・転居）
+[[GovernmentService/ward-office-holiday-counter]] — 区役所の休日窓口

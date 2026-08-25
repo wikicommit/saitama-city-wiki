@@ -1,0 +1,25 @@
+---
+source:
+  type: url
+  url: 'https://ja.wikipedia.org/wiki/南区_(さいたま市)'
+  hash: sha256:2227dd4a26eb6c86b7766eb31d40539ed7235348321d1cc87bce3e4c8f2b731e
+
+schema:
+status: partial
+last_generated_at: "2026-08-25"
+extracted_tokens: 22265
+generated_pages:
+  - .wikicommit/entity/ja/AdministrativeArea/minami-ward.md
+  - .wikicommit/entity/ja/Place/besshonuma-park.md
+  - .wikicommit/entity/ja/Place/musashi-urawa-station.md
+  - .wikicommit/entity/ja/Event/minami-ward-furusato-fair.md
+failed_pages: []
+---
+
+## Summary
+
+南区（みなみく）はさいたま市を構成する10行政区の一つで、旧浦和市の中央部南側にあたり、人口197,147人は市内10区で最多、人口密度14,265人/km²は市内2位である。大宮台地浦和大宮支台の南端部から川口低地にまたがり、区の総面積の56.3%を宅地が占め、荒川堤外地を除く全域が人口集中地区に含まれる。1961年の南浦和駅開業と1985年の埼京線開通・武蔵浦和駅開業を機に急速に宅地化が進み、武蔵浦和駅周辺は市の副都心として再開発が進む。区内には浦和画家の拠点でヒヤシンスハウスが所在する別所沼公園があり、2002年から南区ふるさとふれあいフェアが開催されている。
+
+「南区」: 面積（13.82km²）・人口（197,147人）・人口密度（14,265人/km²）・世帯数（86,466世帯）・市町村コード（11108-2）・区の花（ヒマワリ）・区の色（レモン色）の記載があったが、AdministrativeArea.md の properties フィールドに受け皿がないため本文にのみ記載。
+
+テーマ不一致により除外したエンティティ: 「中川健吉」「竹内結子」「反町隆史」「木塚敦志」「境澤賢一」（出身者として名前のみが挙げられており、本ナレッジベースのテーマである地理・歴史・施設・組織・行政手続きのいずれにも該当しないため）。
