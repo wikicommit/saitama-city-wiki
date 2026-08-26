@@ -25,6 +25,7 @@ type: "schema:Place"
 [[Place/myogyoji-temple]] — 妙行寺
 [[Place/nakayama-shrine]] — 中山神社
 [[Place/omiya-bonsai-art-museum]] — さいたま市大宮盆栽美術館
+[[Place/omiya-bonsai-village]] — 大宮盆栽村
 [[Place/omiya-park]] — 大宮公園
 [[Place/omiya-station]] — 大宮駅
 [[Place/railway-museum]] — 鉄道博物館
