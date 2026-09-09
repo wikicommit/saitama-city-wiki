@@ -7,6 +7,7 @@ type: "schema:DefinedTerm"
 [[DefinedTerm/administrative-ward]] — 行政区
 [[DefinedTerm/designated-administrator-system]] — 指定管理者制度
 [[DefinedTerm/designated-city]] — 政令指定都市
+[[DefinedTerm/designated-cultural-property]] — さいたま市の指定・登録文化財
 [[DefinedTerm/iwatsuki-dolls]] — 岩槻人形
 [[DefinedTerm/iwatsuki-kuroyakko]] — 岩槻の黒奴
 [[DefinedTerm/koseki]] — 戸籍

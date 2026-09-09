@@ -6,7 +6,7 @@ source:
 
 schema:
 status: partial
-last_generated_at: "2026-08-25"
+last_generated_at: "2026-08-26"
 extracted_tokens: 8305
 generated_pages:
   - .wikicommit/entity/ja/Organization/saitama-tourism-and-international-relations-bureau.md
@@ -28,3 +28,5 @@ failed_pages: []
 「公益社団法人さいたま観光国際協会」: 所在地（さいたま市大宮区高鼻町2-1-1 Bibli2F）の記載があったが、Organization.md の properties フィールドに受け皿がないため本文にのみ記載。
 
 テーマ不一致により除外したエンティティ: 「フルーツパーク浦和組合」「白子果樹園」「西形ブルーベリー園」「文明堂東京 さいたまあおぞら工房」（いずれも味覚狩り・飲食を行う個別の営利事業者であり、本ナレッジベースのテーマが対象外とする「特定店舗の宣伝」に該当するため）。
+
+2026-08-26 の再処理: 内容はハッシュ一致で前回から変更なし。新規エンティティは検出されず、ページの追加・更新は行っていない。除外エンティティの判断は前回から変更していない。

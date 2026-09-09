@@ -8,6 +8,7 @@ type: "schema:Place"
 [[Place/akigase-park]] — 秋ヶ瀬公園
 [[Place/besshonuma-park]] — 別所沼公園
 [[Place/daimon-juku]] — 大門宿
+[[Place/hatchotei]] — 八丁堤
 [[Place/hikawa-nyotai-shrine]] — 氷川女体神社
 [[Place/hikawa-sando]] — 氷川参道
 [[Place/hikawa-shrine]] — 武蔵一宮氷川神社
@@ -19,11 +20,13 @@ type: "schema:Place"
 [[Place/iwatsuki-toki-no-kane]] — 時の鐘
 [[Place/mint-museum-saitama]] — 造幣さいたま博物館
 [[Place/minuma]] — 見沼
+[[Place/minuma-daiyosui]] — 見沼代用水
 [[Place/minuma-tanbo]] — 見沼田んぼ
 [[Place/minuma-tsusenbori]] — 見沼通船堀
 [[Place/musashi-urawa-station]] — 武蔵浦和駅
 [[Place/myogyoji-temple]] — 妙行寺
 [[Place/nakayama-shrine]] — 中山神社
+[[Place/noda-heronry]] — 野田のサギ山
 [[Place/omiya-bonsai-art-museum]] — さいたま市大宮盆栽美術館
 [[Place/omiya-bonsai-village]] — 大宮盆栽村
 [[Place/omiya-park]] — 大宮公園
@@ -36,7 +39,7 @@ type: "schema:Place"
 [[Place/senkyokan]] — 遷喬館
 [[Place/sewage-treatment-center]] — 下水処理センター
 [[Place/shimin-no-mori]] — 市民の森・見沼グリーンセンター
-[[Place/space-science-museum]] — 青少年宇宙科学館
+[[Place/space-science-museum]] — さいたま市青少年宇宙科学館
 [[Place/tajimagahara-primrose-habitat]] — 田島ヶ原サクラソウ自生地
 [[Place/tsuki-shrine]] — 調神社
 [[Place/tsukinomiya-park]] — 調公園
