@@ -14,7 +14,7 @@ sources:
     hash: sha256:d349f800f8fc88405827edb204ca56559de197035303b86909a5f610f18e9c41
 tags: [行政区, 旧大宮市]
 review_status: pending
-generated_at: "2026-08-25"
+generated_at: "2026-08-26"
 generated_by: "claude-opus-5[1m]"
 
 properties:
@@ -30,7 +30,7 @@ properties:
 
 ## Geography & Boundaries
 
-さいたま市の北部に位置し、区名は地理的に市域の北にあることによる。江戸時代における中山道の大宮宿から上尾宿の間にあたる。主に大宮台地の浦和大宮支台上にあり、西に鴨川が、東に芝川や見沼代用水西縁が流れる。芝川周辺はかつての見沼の北端にあたり、[[AdministrativeArea/omiya-ward]]・[[AdministrativeArea/minuma-ward]]・[[AdministrativeArea/urawa-ward]]・[[AdministrativeArea/midori-ward]]とともに、農地として保全された[[Place/minuma-tanbo]]の周辺に含まれる。見沼田んぼ周辺は開発が厳しく制限されている。
+さいたま市の北部に位置し、区名は地理的に市域の北にあることによる。江戸時代における中山道の大宮宿から上尾宿の間にあたる。主に大宮台地の浦和大宮支台上にあり、西に鴨川が、東に芝川や[[Place/minuma-daiyosui]]西縁が流れる。芝川周辺はかつての見沼の北端にあたり、[[AdministrativeArea/omiya-ward]]・[[AdministrativeArea/minuma-ward]]・[[AdministrativeArea/urawa-ward]]・[[AdministrativeArea/midori-ward]]とともに、農地として保全された[[Place/minuma-tanbo]]の周辺に含まれる。見沼田んぼ周辺は開発が厳しく制限されている。
 
 区内を流れる河川には、ほかに鴻沼川（霧敷川・切敷川）と逆川がある。区の北部、国道16号沿いには吉野原工業団地や卸売市場（大宮市場）が立地する。区の郵便番号は全域が331である。
 
