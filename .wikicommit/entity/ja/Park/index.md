@@ -2,6 +2,8 @@
 title: "Park"
 lang: ja
 type: "schema:Park"
+review_status: reviewed
+comments: false
 ---
 
-[[Park/minuma-shizen-park]] — 見沼自然公園
+- [[Park/minuma-shizen-park]]

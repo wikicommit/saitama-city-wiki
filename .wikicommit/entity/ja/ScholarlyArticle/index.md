@@ -2,7 +2,9 @@
 title: "ScholarlyArticle"
 lang: ja
 type: "schema:ScholarlyArticle"
+review_status: reviewed
+comments: false
 ---
 
-[[ScholarlyArticle/minuma-rice-field-establishment-and-development]] — 見沼田んぼの成立と展開
-[[ScholarlyArticle/municipal-recognition-real-estate-consolidation]] — 合併による不動産市場への影響について自治体の認識〜さいたま市を事例として〜
+- [[ScholarlyArticle/minuma-rice-field-establishment-and-development]]
+- [[ScholarlyArticle/municipal-recognition-real-estate-consolidation]]

@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Detect ingest management files whose source has changed (hash mismatch).
+"""Detect source management files whose source has changed (hash mismatch).
 
 For each management file with source.type=path and status in {generated, partial,
 outdated}, computes the SHA-256 of the source file and compares it with source.hash.
 If they differ, updates the management file's status to 'outdated'.
+
+`status: retracted` is never touched — see CHECKABLE_STATUSES below.
 
 Usage:
     python .wikicommit/scripts/check_ingest_freshness.py [<ingest-file>...]
@@ -29,6 +31,11 @@ SOURCE_DIR = Path(".wikicommit/source")
 # covers read-side parsing only; this write-side logic is a separate concern.
 FRONTMATTER_RE = re.compile(r"^---\r?\n(.*?)\r?\n---\r?\n?", re.DOTALL)
 
+# `retracted` (Issue #737) is deliberately absent, the way `outdated` is absent
+# from reconcile_ingest_status.py's targets (Issue #474): a human retracted that
+# source, and rewriting it to `outdated` on a hash mismatch would put it back in
+# Pass 1's collection list — touching the source file by one byte would lift the
+# retraction, silently. Only a human can set or clear this status.
 CHECKABLE_STATUSES = {"generated", "partial", "outdated"}
 
 
@@ -65,7 +72,7 @@ def _sha256_of_file(file_path: Path) -> str:
     return h.hexdigest()
 
 
-def collect_ingest_files(args: list[str]) -> list[Path]:
+def collect_mgmt_files(args: list[str]) -> list[Path]:
     if args:
         return [Path(p) for p in args]
     if not SOURCE_DIR.exists():
@@ -75,10 +82,10 @@ def collect_ingest_files(args: list[str]) -> list[Path]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Detect outdated ingest sources.")
-    parser.add_argument("ingest_files", nargs="*", metavar="<ingest-file>")
+    parser.add_argument("mgmt_files", nargs="*", metavar="<ingest-file>")
     parsed = parser.parse_args()
 
-    targets = collect_ingest_files(parsed.ingest_files)
+    targets = collect_mgmt_files(parsed.mgmt_files)
 
     outdated_count = 0
     ok_count = 0

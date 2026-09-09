@@ -2,8 +2,8 @@
 """Detect raw HTML tags in wiki page body content.
 
 WikiCommit's design commits to embedding local/external images, video files,
-and YouTube via standard Markdown image syntax only (`![alt](path-or-url)`;
-see CLAUDE.md and docs/DesignDoc-publish.md §8.6) — there is no legitimate
+and YouTube via standard Markdown image syntax only (`![alt](path-or-url)`,
+which Quartz handles natively) — there is no legitimate
 need for a wiki page body to contain a raw HTML tag. Quartz's Markdown-to-
 HTML pipeline passes raw HTML straight through regardless of
 `enableInHtmlEmbed` (`remarkRehype(..., { allowDangerousHtml: true })` is
@@ -52,7 +52,7 @@ import sys
 from pathlib import Path
 
 from _frontmatter import parse_frontmatter_and_body_text
-from _wikilink import ENTITY_DIR
+from _wikilink import ENTITY_DIR, VIEW_DIR
 
 IN_GITHUB_ACTIONS = os.environ.get("GITHUB_ACTIONS") == "true"
 
@@ -91,10 +91,14 @@ def main() -> int:
     if len(sys.argv) > 1:
         target_files: list[Path] = [Path(a) for a in sys.argv[1:]]
     else:
-        if not entity_dir.exists():
-            print("OK: 0 files checked, 0 errors")
-            return 0
-        target_files = sorted(entity_dir.rglob("*.md"))
+        # Both trees: a view page's body is published the same way and is
+        # subject to the same raw-HTML ban (Issue #675). As above, every `.md`
+        # on disk is checked — this script's subject is files, not the page
+        # graph.
+        target_files = sorted(entity_dir.rglob("*.md")) if entity_dir.exists() else []
+        view_dir = repo_root / VIEW_DIR
+        if view_dir.exists():
+            target_files += sorted(view_dir.rglob("*.md"))
 
     if not target_files:
         print("OK: 0 files checked, 0 errors")
@@ -106,7 +110,7 @@ def main() -> int:
     for fp in target_files:
         fp = Path(fp)
         if not fp.exists():
-            print(f"ERROR: {fp}: ファイルが存在しません", file=sys.stderr)
+            print(f"ERROR: {fp}: file does not exist", file=sys.stderr)
             total_errors += 1
             continue
 
@@ -118,7 +122,7 @@ def main() -> int:
         try:
             content = fp.read_text(encoding="utf-8-sig")
         except OSError as e:
-            print(f"ERROR: {rel_str}: ファイルを読み込めませんでした: {e}")
+            print(f"ERROR: {rel_str}: could not be read: {e}")
             total_errors += 1
             continue
 
@@ -129,12 +133,12 @@ def main() -> int:
             # validate_frontmatter.py already reports a malformed frontmatter
             # block as a blocking error; this script only cares about body
             # content, so it just skips a page it cannot split cleanly.
-            print(f"WARNING: {rel_str}: frontmatter を解析できないため本文チェックをスキップします ({err})")
+            print(f"WARNING: {rel_str}: frontmatter could not be parsed, so the body check was skipped ({err})")
             continue
 
         for tag in find_raw_html(body):
             snippet = tag if len(tag) <= 120 else tag[:117] + "..."
-            msg = f"生 HTML タグが検出されました: {snippet}"
+            msg = f"raw HTML tag detected: {snippet}"
             print(f"ERROR: {rel_str}: {msg}")
             if IN_GITHUB_ACTIONS:
                 emit_github_annotation("error", rel_str, msg)

@@ -2,48 +2,50 @@
 title: "Place"
 lang: ja
 type: "schema:Place"
+review_status: reviewed
+comments: false
 ---
 
-[[Place/akiba-shrine]] — 秋葉神社
-[[Place/akigase-park]] — 秋ヶ瀬公園
-[[Place/besshonuma-park]] — 別所沼公園
-[[Place/daimon-juku]] — 大門宿
-[[Place/hatchotei]] — 八丁堤
-[[Place/hikawa-nyotai-shrine]] — 氷川女体神社
-[[Place/hikawa-sando]] — 氷川参道
-[[Place/hikawa-shrine]] — 武蔵一宮氷川神社
-[[Place/hisaizu-shrine]] — 久伊豆神社
-[[Place/isonokami-shrine]] — 石上神社
-[[Place/iwatsuki-castle]] — 岩槻城
-[[Place/iwatsuki-doll-museum]] — さいたま市岩槻人形博物館
-[[Place/iwatsuki-station]] — 岩槻駅
-[[Place/iwatsuki-toki-no-kane]] — 時の鐘
-[[Place/mint-museum-saitama]] — 造幣さいたま博物館
-[[Place/minuma]] — 見沼
-[[Place/minuma-daiyosui]] — 見沼代用水
-[[Place/minuma-tanbo]] — 見沼田んぼ
-[[Place/minuma-tsusenbori]] — 見沼通船堀
-[[Place/musashi-urawa-station]] — 武蔵浦和駅
-[[Place/myogyoji-temple]] — 妙行寺
-[[Place/nakayama-shrine]] — 中山神社
-[[Place/noda-heronry]] — 野田のサギ山
-[[Place/omiya-bonsai-art-museum]] — さいたま市大宮盆栽美術館
-[[Place/omiya-bonsai-village]] — 大宮盆栽村
-[[Place/omiya-park]] — 大宮公園
-[[Place/omiya-station]] — 大宮駅
-[[Place/railway-museum]] — 鉄道博物館
-[[Place/saitama-central-library]] — さいたま市立中央図書館
-[[Place/saitama-prefectural-office]] — 埼玉県庁
-[[Place/saitama-shintoshin]] — さいたま新都心
-[[Place/seitaiji-temple]] — 清泰寺
-[[Place/senkyokan]] — 遷喬館
-[[Place/sewage-treatment-center]] — 下水処理センター
-[[Place/shimin-no-mori]] — 市民の森・見沼グリーンセンター
-[[Place/space-science-museum]] — さいたま市青少年宇宙科学館
-[[Place/tajimagahara-primrose-habitat]] — 田島ヶ原サクラソウ自生地
-[[Place/tsuki-shrine]] — 調神社
-[[Place/tsukinomiya-park]] — 調公園
-[[Place/urawa-juku]] — 浦和宿
-[[Place/urawa-misono-station]] — 浦和美園駅
-[[Place/urawa-station]] — 浦和駅
-[[Place/yono-park]] — 与野公園
+- [[Place/akiba-shrine]]
+- [[Place/akigase-park]]
+- [[Place/besshonuma-park]]
+- [[Place/daimon-juku]]
+- [[Place/hatchotei]]
+- [[Place/hikawa-nyotai-shrine]]
+- [[Place/hikawa-sando]]
+- [[Place/hikawa-shrine]]
+- [[Place/hisaizu-shrine]]
+- [[Place/isonokami-shrine]]
+- [[Place/iwatsuki-castle]]
+- [[Place/iwatsuki-doll-museum]]
+- [[Place/iwatsuki-station]]
+- [[Place/iwatsuki-toki-no-kane]]
+- [[Place/mint-museum-saitama]]
+- [[Place/minuma]]
+- [[Place/minuma-daiyosui]]
+- [[Place/minuma-tanbo]]
+- [[Place/minuma-tsusenbori]]
+- [[Place/musashi-urawa-station]]
+- [[Place/myogyoji-temple]]
+- [[Place/nakayama-shrine]]
+- [[Place/noda-heronry]]
+- [[Place/omiya-bonsai-art-museum]]
+- [[Place/omiya-bonsai-village]]
+- [[Place/omiya-park]]
+- [[Place/omiya-station]]
+- [[Place/railway-museum]]
+- [[Place/saitama-central-library]]
+- [[Place/saitama-prefectural-office]]
+- [[Place/saitama-shintoshin]]
+- [[Place/seitaiji-temple]]
+- [[Place/senkyokan]]
+- [[Place/sewage-treatment-center]]
+- [[Place/shimin-no-mori]]
+- [[Place/space-science-museum]]
+- [[Place/tajimagahara-primrose-habitat]]
+- [[Place/tsuki-shrine]]
+- [[Place/tsukinomiya-park]]
+- [[Place/urawa-juku]]
+- [[Place/urawa-misono-station]]
+- [[Place/urawa-station]]
+- [[Place/yono-park]]
