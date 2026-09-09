@@ -2,8 +2,10 @@
 title: "StadiumOrArena"
 lang: ja
 type: "schema:StadiumOrArena"
+review_status: reviewed
+comments: false
 ---
 
-[[StadiumOrArena/nack5-stadium-omiya]] — NACK5スタジアム大宮
-[[StadiumOrArena/saitama-stadium-2002]] — 埼玉スタジアム2002
-[[StadiumOrArena/saitama-super-arena]] — さいたまスーパーアリーナ
+- [[StadiumOrArena/nack5-stadium-omiya]]
+- [[StadiumOrArena/saitama-stadium-2002]]
+- [[StadiumOrArena/saitama-super-arena]]
