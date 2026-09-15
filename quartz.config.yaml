@@ -7,11 +7,11 @@
 # 詳細は README または .github/workflows/deploy.yml を参照してください。
 configuration:
   pageTitle: "saitama-city-wiki"
-  pageTitleSuffix: ""
+  pageTitleSuffix: " - saitama-city-wiki"
   enableSPA: true
   enablePopovers: true
   analytics: null
-  locale: en-US
+  locale: ja-JP 
   baseUrl: localhost:8080
   ignorePatterns:
     - private
@@ -150,7 +150,7 @@ plugins:
     layout:
       position: left
       priority: 50
-  - source: github:quartz-community/graph
+  - source: ../quartz-plugins/wikicommit-graph   # ← github:quartz-community/graph から変更
     enabled: true
     layout:
       position: right
@@ -248,7 +248,7 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
+        GitHub: https://github.com/wikicommit/saitama-city-wiki
         Discord Community: https://discord.gg/cRFFHYye7t
   - source: github:quartz-community/recent-notes
     enabled: false
@@ -330,11 +330,13 @@ layout:
     folder:
       exclude:
         - reader-mode
+        - wikicommit-banner
       positions:
         right: []
     tag:
       exclude:
         - reader-mode
+        - wikicommit-banner
       positions:
         right: []
     canvas: {}

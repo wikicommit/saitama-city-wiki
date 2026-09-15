@@ -17,7 +17,7 @@ expires_at: "2026-08-30"
 
 properties:
   description: "さいたま市が原則毎月最終日曜日（3月は最終土曜日も）に全10区役所で開設する休日の窓口。8時30分から17時15分まで、区民課・保険年金課・支援課および市税の窓口が開設され、引越しや出産に伴う手続き、住民票の写しの取得などの一部業務を取り扱う。戸籍の届出を受け付ける夜間・休日受付窓口とは異なる。"
-  provider: "[[Organization/saitama-city]]"
+  provider: "[[AdministrativeArea/saitama-city]]"
   serviceType: "休日開庁による窓口業務"
   areaServed: "[[AdministrativeArea/saitama-city]]"
   availableChannel: "全10区役所の区民課・保険年金課・支援課および市税の窓口（大宮区・浦和区は市税の総合窓口）での対面受付"
